@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <h1>
-        <strong>Crunchyroll</strong>
+        <strong>The Anime List</strong>
         <SocialMedia />
       </h1>
     </header>

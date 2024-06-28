@@ -61,6 +61,8 @@ function Home() {
   }, []);
 
   return (
+    <>
+    <link rel="icon" href="icon.png" type="image/x-icon" />
     <div className="App">
       <Header />
       <div className="content-wrap">
@@ -74,6 +76,7 @@ function Home() {
         />
       </div>
     </div>
+    </>
   );
 }
 
