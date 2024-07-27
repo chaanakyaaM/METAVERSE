@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav-bar{
+.nav-bar {
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -20,12 +20,12 @@ body {
   font-size: 22px;
 }
 
-.nav-bar li a{
+.nav-bar li a {
   color: rgb(170, 167, 167) !important;
   transition-duration: 0.5s !important;
 }
 
-.nav-bar li a:hover{
+.nav-bar li a:hover {
   color: white !important;
 }
 
@@ -64,7 +64,6 @@ nav {
 .logo_container img {
   height: 60px;
 }
-
 
 .bar_icon {
   display: none;
@@ -120,14 +119,13 @@ a:hover {
     width: 100%; /* add this to make the nav full width */
     z-index: 50;
   }
-  
+
   .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%; /* add this to make the navigation full width */
   }
-  
 }
 
 @media (max-width: 480px) {
@@ -138,7 +136,6 @@ a:hover {
     margin-left: 1rem;
   }
 }
-
 
 /* Hero Section */
 .hero {
@@ -309,7 +306,6 @@ footer {
   margin-bottom: 10px;
 }
 
-
 /* Style for menu page */
 .menu-page {
   display: flex;
@@ -383,10 +379,11 @@ footer {
   position: fixed;
   right: 0;
   top: 130px; /* Adjust this value to align with the top margin of .menu-page */
-  height: calc(100% - 150px); /* Adjust this value based on the height of your navbar */
+  height: calc(
+    100% - 150px
+  ); /* Adjust this value based on the height of your navbar */
   overflow-y: auto;
 }
-
 
 .menu-sidebar ul {
   list-style: none;
